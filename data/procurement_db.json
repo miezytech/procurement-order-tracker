@@ -1,0 +1,769 @@
+{
+  "purchase_orders": [
+    {
+      "id": "po_1721020800",
+      "po_number": "PO-2026-0000",
+      "purchase_date": "2026-07-15T09:00:00.000Z",
+      "date_formatted": "2026-07-15",
+      "supplier": "Mega Office Furniture Sdn Bhd",
+      "status": "Completed",
+      "notes": "July facility air quality and sanitization stations upgrade for corporate office",
+      "reference_no": "FAC-JUL-2026",
+      "total_amount": 5400,
+      "items_count": 3,
+      "total_ordered_units": 25,
+      "total_received_units": 25,
+      "total_pending_units": 0,
+      "items": [
+        {
+          "id": "item_000_a",
+          "po_id": "po_1721020800",
+          "po_number": "PO-2026-0000",
+          "item_name": "Sharp Plasmacluster Commercial Air Purifier (Coverage 60m²)",
+          "supplier": "Mega Office Furniture Sdn Bhd",
+          "quantity": 3,
+          "quantity_received": 3,
+          "pending_balance": 0,
+          "unit_price": 680,
+          "total_price": 2040,
+          "category": "Facilities & Safety",
+          "notes": "Equipped with HEPA filter and carbon deodorizer",
+          "purchase_date": "2026-07-15T09:00:00.000Z"
+        },
+        {
+          "id": "item_000_b",
+          "po_id": "po_1721020800",
+          "po_number": "PO-2026-0000",
+          "item_name": "Automated Non-Contact Hand Sanitizer Dispenser Stand 1000ml",
+          "supplier": "Mega Office Furniture Sdn Bhd",
+          "quantity": 10,
+          "quantity_received": 10,
+          "pending_balance": 0,
+          "unit_price": 180,
+          "total_price": 1800,
+          "category": "Facilities & Safety",
+          "notes": "Battery operated with stainless steel floor stand",
+          "purchase_date": "2026-07-15T09:00:00.000Z"
+        },
+        {
+          "id": "item_000_c",
+          "po_id": "po_1721020800",
+          "po_number": "PO-2026-0000",
+          "item_name": "Hospital-Grade Alcohol Disinfectant Liquid (5-Liter Jerrycan)",
+          "supplier": "Mega Office Furniture Sdn Bhd",
+          "quantity": 12,
+          "quantity_received": 12,
+          "pending_balance": 0,
+          "unit_price": 130,
+          "total_price": 1560,
+          "category": "Cleaning & Maintenance",
+          "notes": "Certified 75% pharmaceutical grade ethanol formula",
+          "purchase_date": "2026-07-15T09:00:00.000Z"
+        }
+      ],
+      "receipt_logs": [
+        {
+          "id": "rec_1721280000",
+          "receipt_date": "2026-07-18T14:30:00.000Z",
+          "receiver_name": "Ahmad Fauzi (Stor & Logistik)",
+          "delivery_order_ref": "DO-MOF-6190",
+          "notes": "All 3 air purifiers and sanitizers received in full, operational test passed.",
+          "items": [
+            {
+              "item_id": "item_000_a",
+              "item_name": "Sharp Plasmacluster Commercial Air Purifier (Coverage 60m²)",
+              "quantity_received": 3
+            },
+            {
+              "item_id": "item_000_b",
+              "item_name": "Automated Non-Contact Hand Sanitizer Dispenser Stand 1000ml",
+              "quantity_received": 10
+            },
+            {
+              "item_id": "item_000_c",
+              "item_name": "Hospital-Grade Alcohol Disinfectant Liquid (5-Liter Jerrycan)",
+              "quantity_received": 12
+            }
+          ]
+        }
+      ],
+      "last_receipt_date": "2026-07-18T14:30:00.000Z",
+      "created_at": "2026-07-15T09:00:00.000Z",
+      "updated_at": "2026-07-18T14:30:00.000Z"
+    },
+    {
+      "id": "po_1724800100",
+      "po_number": "PO-2026-0001",
+      "purchase_date": "2026-08-20T09:30:00.000Z",
+      "date_formatted": "2026-08-20",
+      "supplier": "Graha Tech Solutions Sdn Bhd",
+      "status": "Completed",
+      "notes": "Quarterly IT equipment procurement for Engineering team - All delivered and verified",
+      "reference_no": "REQ-IT-2026-08",
+      "total_amount": 11625,
+      "items_count": 3,
+      "total_ordered_units": 12,
+      "total_received_units": 12,
+      "total_pending_units": 0,
+      "items": [
+        {
+          "id": "item_001",
+          "po_id": "po_1724800100",
+          "po_number": "PO-2026-0001",
+          "item_name": "Dell UltraSharp 27-inch 4K Monitor (U2723QE)",
+          "supplier": "Graha Tech Solutions Sdn Bhd",
+          "quantity": 4,
+          "quantity_received": 4,
+          "pending_balance": 0,
+          "unit_price": 2450,
+          "total_price": 9800,
+          "category": "Hardware & IT",
+          "notes": "Includes 3-year local warranty in Malaysia",
+          "purchase_date": "2026-08-20T09:30:00.000Z"
+        },
+        {
+          "id": "item_002",
+          "po_id": "po_1724800100",
+          "po_number": "PO-2026-0001",
+          "item_name": "Logitech MX Master 3S Ergonomic Wireless Mouse",
+          "supplier": "Graha Tech Solutions Sdn Bhd",
+          "quantity": 3,
+          "quantity_received": 3,
+          "pending_balance": 0,
+          "unit_price": 450,
+          "total_price": 1350,
+          "category": "Peripherals",
+          "notes": "Graphite black edition with quiet click switches",
+          "purchase_date": "2026-08-20T09:30:00.000Z"
+        },
+        {
+          "id": "item_003",
+          "po_id": "po_1724800100",
+          "po_number": "PO-2026-0001",
+          "item_name": "USB-C Thunderbolt 4 Braided Cable 2M",
+          "supplier": "Graha Tech Solutions Sdn Bhd",
+          "quantity": 5,
+          "quantity_received": 5,
+          "pending_balance": 0,
+          "unit_price": 95,
+          "total_price": 475,
+          "category": "Peripherals",
+          "notes": "100W Power Delivery & 40Gbps data certified",
+          "purchase_date": "2026-08-20T09:30:00.000Z"
+        }
+      ],
+      "receipt_logs": [
+        {
+          "id": "rec_1724810000",
+          "receipt_date": "2026-08-21T11:00:00.000Z",
+          "receiver_name": "Ahmad Fauzi (Stor & Logistik)",
+          "delivery_order_ref": "DO-GTS-8841",
+          "notes": "Full batch delivered in pristine condition, serial numbers recorded.",
+          "items": [
+            {
+              "item_id": "item_001",
+              "item_name": "Dell UltraSharp 27-inch 4K Monitor (U2723QE)",
+              "quantity_received": 4
+            },
+            {
+              "item_id": "item_002",
+              "item_name": "Logitech MX Master 3S Ergonomic Wireless Mouse",
+              "quantity_received": 3
+            },
+            {
+              "item_id": "item_003",
+              "item_name": "USB-C Thunderbolt 4 Braided Cable 2M",
+              "quantity_received": 5
+            }
+          ]
+        }
+      ],
+      "last_receipt_date": "2026-08-21T11:00:00.000Z",
+      "created_at": "2026-08-20T09:30:00.000Z",
+      "updated_at": "2026-08-21T11:00:00.000Z"
+    },
+    {
+      "id": "po_1724886500",
+      "po_number": "PO-2026-0002",
+      "purchase_date": "2026-08-23T14:15:00.000Z",
+      "date_formatted": "2026-08-23",
+      "supplier": "Cahaya Stationery & Office Supplies Sdn Bhd",
+      "status": "Partially Fulfilled",
+      "notes": "General office stationery and paper replenishment - First partial shipment received",
+      "reference_no": "GA-OFFICE-088",
+      "total_amount": 2046,
+      "items_count": 3,
+      "total_ordered_units": 43,
+      "total_received_units": 18,
+      "total_pending_units": 25,
+      "items": [
+        {
+          "id": "item_004",
+          "po_id": "po_1724886500",
+          "po_number": "PO-2026-0002",
+          "item_name": "PaperOne All Purpose A4 80gsm (Box of 5 Reams)",
+          "supplier": "Cahaya Stationery & Office Supplies Sdn Bhd",
+          "quantity": 20,
+          "quantity_received": 10,
+          "pending_balance": 10,
+          "unit_price": 72,
+          "total_price": 1440,
+          "category": "Office Supplies",
+          "notes": "First batch of 10 boxes arrived; remaining 10 pending next truck",
+          "purchase_date": "2026-08-23T14:15:00.000Z"
+        },
+        {
+          "id": "item_005",
+          "po_id": "po_1724886500",
+          "po_number": "PO-2026-0002",
+          "item_name": "Pilot G2 Gel Pen 0.5mm Black (Pack of 12)",
+          "supplier": "Cahaya Stationery & Office Supplies Sdn Bhd",
+          "quantity": 8,
+          "quantity_received": 8,
+          "pending_balance": 0,
+          "unit_price": 42,
+          "total_price": 336,
+          "category": "Office Supplies",
+          "notes": "Fully received in batch 1",
+          "purchase_date": "2026-08-23T14:15:00.000Z"
+        },
+        {
+          "id": "item_006",
+          "po_id": "po_1724886500",
+          "po_number": "PO-2026-0002",
+          "item_name": "3M Post-it Super Sticky Notes 3x3 (Pack of 6)",
+          "supplier": "Cahaya Stationery & Office Supplies Sdn Bhd",
+          "quantity": 15,
+          "quantity_received": 0,
+          "pending_balance": 15,
+          "unit_price": 18,
+          "total_price": 270,
+          "category": "Office Supplies",
+          "notes": "Backordered from manufacturer, pending arrival next Tuesday",
+          "purchase_date": "2026-08-23T14:15:00.000Z"
+        }
+      ],
+      "receipt_logs": [
+        {
+          "id": "rec_1724900000",
+          "receipt_date": "2026-08-25T10:15:00.000Z",
+          "receiver_name": "Siti Rahmah (Inventory Receiving Officer)",
+          "delivery_order_ref": "DO-CS-40192",
+          "notes": "Delivered partial stock. 10 boxes A4 paper & 8 packs pens accepted. Post-it pending.",
+          "items": [
+            {
+              "item_id": "item_004",
+              "item_name": "PaperOne All Purpose A4 80gsm (Box of 5 Reams)",
+              "quantity_received": 10
+            },
+            {
+              "item_id": "item_005",
+              "item_name": "Pilot G2 Gel Pen 0.5mm Black (Pack of 12)",
+              "quantity_received": 8
+            }
+          ]
+        }
+      ],
+      "last_receipt_date": "2026-08-25T10:15:00.000Z",
+      "created_at": "2026-08-23T14:15:00.000Z",
+      "updated_at": "2026-08-25T10:15:00.000Z"
+    },
+    {
+      "id": "po_1724929800",
+      "po_number": "PO-2026-0003",
+      "purchase_date": "2026-08-27T11:00:00.000Z",
+      "date_formatted": "2026-08-27",
+      "supplier": "Mitra Jaya Packaging Solutions Sdn Bhd",
+      "status": "Completed",
+      "notes": "Warehouse packaging supplies for fulfillment center - Awaiting delivery dispatch",
+      "reference_no": "WH-PACK-402",
+      "total_amount": 1775,
+      "items_count": 2,
+      "total_ordered_units": 260,
+      "total_received_units": 260,
+      "total_pending_units": 0,
+      "items": [
+        {
+          "id": "item_007",
+          "po_id": "po_1724929800",
+          "po_number": "PO-2026-0003",
+          "item_name": "Heavy Duty Corrugated Carton Boxes (50x40x40cm)",
+          "supplier": "Mitra Jaya Packaging Solutions Sdn Bhd",
+          "quantity": 250,
+          "quantity_received": 250,
+          "pending_balance": 0,
+          "unit_price": 4.5,
+          "total_price": 1125,
+          "category": "Packaging & Shipping",
+          "notes": "Custom company branding stamped",
+          "purchase_date": "2026-08-27T11:00:00.000Z"
+        },
+        {
+          "id": "item_008",
+          "po_id": "po_1724929800",
+          "po_number": "PO-2026-0003",
+          "item_name": "Air Bubble Wrap Roll (1.25m x 50m Premium)",
+          "supplier": "Mitra Jaya Packaging Solutions Sdn Bhd",
+          "quantity": 10,
+          "quantity_received": 10,
+          "pending_balance": 0,
+          "unit_price": 65,
+          "total_price": 650,
+          "category": "Packaging & Shipping",
+          "notes": "Fragile goods insulation buffer",
+          "purchase_date": "2026-08-27T11:00:00.000Z"
+        }
+      ],
+      "receipt_logs": [
+        {
+          "id": "rec_1788017353472",
+          "receipt_date": "2026-08-29T07:29:00.000Z",
+          "receiver_name": "Ahmad Fauzi (Inventory Receiver)",
+          "items": [
+            {
+              "item_id": "item_007",
+              "item_name": "Heavy Duty Corrugated Carton Boxes (50x40x40cm)",
+              "quantity_received": 200
+            },
+            {
+              "item_id": "item_008",
+              "item_name": "Air Bubble Wrap Roll (1.25m x 50m Premium)",
+              "quantity_received": 10
+            }
+          ]
+        },
+        {
+          "id": "rec_1788016555059",
+          "receipt_date": "2026-08-29T15:15:55.059Z",
+          "receiver_name": "Ahmad Fauzi (Inventory Receiver)",
+          "delivery_order_ref": "DO-MJ-9912",
+          "notes": "First batch of 50 cartons delivered to Bay 3",
+          "items": [
+            {
+              "item_id": "item_007",
+              "item_name": "Heavy Duty Corrugated Carton Boxes (50x40x40cm)",
+              "quantity_received": 50
+            }
+          ]
+        }
+      ],
+      "last_receipt_date": "2026-08-29T07:29:00.000Z",
+      "created_at": "2026-08-27T11:00:00.000Z",
+      "updated_at": "2026-08-29T15:29:13.472Z"
+    },
+    {
+      "id": "po_1724980500",
+      "po_number": "PO-2026-0004",
+      "purchase_date": "2026-08-28T16:00:00.000Z",
+      "date_formatted": "2026-08-28",
+      "supplier": "Mega Office Furniture Sdn Bhd",
+      "status": "Partially Fulfilled",
+      "notes": "Ergonomic mesh chairs for new annex workstations",
+      "reference_no": "FACILITY-CHAIR-09",
+      "total_amount": 4640,
+      "items_count": 1,
+      "total_ordered_units": 8,
+      "total_received_units": 6,
+      "total_pending_units": 2,
+      "items": [
+        {
+          "id": "item_009",
+          "po_id": "po_1724980500",
+          "po_number": "PO-2026-0004",
+          "item_name": "Ergonomic Executive High-Back Mesh Chair (Lumbar Support)",
+          "supplier": "Mega Office Furniture Sdn Bhd",
+          "quantity": 8,
+          "quantity_received": 6,
+          "pending_balance": 2,
+          "unit_price": 580,
+          "total_price": 4640,
+          "category": "General",
+          "notes": "First 4 assembled chairs delivered; remaining 4 scheduled tomorrow",
+          "purchase_date": "2026-08-28T16:00:00.000Z"
+        }
+      ],
+      "receipt_logs": [
+        {
+          "id": "rec_1788017384703",
+          "receipt_date": "2026-08-29T07:29:00.000Z",
+          "receiver_name": "Ahmad Fauzi (Inventory Receiver)",
+          "items": [
+            {
+              "item_id": "item_009",
+              "item_name": "Ergonomic Executive High-Back Mesh Chair (Lumbar Support)",
+              "quantity_received": 2
+            }
+          ]
+        },
+        {
+          "id": "rec_1724990000",
+          "receipt_date": "2026-08-29T09:00:00.000Z",
+          "receiver_name": "Marcus Vane (Procurement & Receiving)",
+          "delivery_order_ref": "DO-MOF-7718",
+          "notes": "4 chairs assembled and delivered to Level 3. 4 remaining.",
+          "items": [
+            {
+              "item_id": "item_009",
+              "item_name": "Ergonomic Executive High-Back Mesh Chair (Lumbar Support)",
+              "quantity_received": 4
+            }
+          ]
+        }
+      ],
+      "last_receipt_date": "2026-08-29T07:29:00.000Z",
+      "created_at": "2026-08-28T16:00:00.000Z",
+      "updated_at": "2026-08-29T15:29:44.703Z"
+    },
+    {
+      "id": "po_2026_0101",
+      "po_number": "PO-2026-0101",
+      "purchase_date": "2026-01-22T10:00:00.000Z",
+      "date_formatted": "2026-01-22",
+      "supplier": "Graha Tech Solutions Sdn Bhd",
+      "status": "Completed",
+      "notes": "Q1 IT infrastructure & workstation hardware rollout",
+      "reference_no": "IT-Q1-2026-01",
+      "total_amount": 14500,
+      "items_count": 2,
+      "total_ordered_units": 6,
+      "total_received_units": 6,
+      "total_pending_units": 0,
+      "items": [
+        {
+          "id": "item_q1_01",
+          "po_id": "po_2026_0101",
+          "po_number": "PO-2026-0101",
+          "item_name": "Lenovo ThinkPad E14 Gen 5 (Intel i7, 16GB RAM, 512GB SSD)",
+          "supplier": "Graha Tech Solutions Sdn Bhd",
+          "quantity": 4,
+          "quantity_received": 4,
+          "pending_balance": 0,
+          "unit_price": 3200,
+          "total_price": 12800,
+          "category": "Hardware & IT",
+          "notes": "Pre-configured with enterprise security image",
+          "purchase_date": "2026-01-22T10:00:00.000Z",
+          "is_audit_verified": true,
+          "audit_verified_at": "2026-08-29T15:32:39.528Z",
+          "last_audit_notes": "Physical count verified in IT storage rack 1"
+        },
+        {
+          "id": "item_q1_02",
+          "po_id": "po_2026_0101",
+          "po_number": "PO-2026-0101",
+          "item_name": "TP-Link Omada 24-Port Gigabit Managed Rackmount Switch",
+          "supplier": "Graha Tech Solutions Sdn Bhd",
+          "quantity": 2,
+          "quantity_received": 2,
+          "pending_balance": 0,
+          "unit_price": 850,
+          "total_price": 1700,
+          "category": "Hardware & IT",
+          "notes": "Installed in server rack A and B",
+          "purchase_date": "2026-01-22T10:00:00.000Z"
+        }
+      ],
+      "receipt_logs": [
+        {
+          "id": "rec_q1_01",
+          "receipt_date": "2026-01-26T11:00:00.000Z",
+          "receiver_name": "Ahmad Fauzi (Stor & Logistik)",
+          "delivery_order_ref": "DO-GTS-5510",
+          "notes": "Delivered in full, tested and verified.",
+          "items": [
+            {
+              "item_id": "item_q1_01",
+              "item_name": "Lenovo ThinkPad E14 Gen 5 (Intel i7, 16GB RAM, 512GB SSD)",
+              "quantity_received": 4
+            },
+            {
+              "item_id": "item_q1_02",
+              "item_name": "TP-Link Omada 24-Port Gigabit Managed Rackmount Switch",
+              "quantity_received": 2
+            }
+          ]
+        }
+      ],
+      "last_receipt_date": "2026-01-26T11:00:00.000Z",
+      "created_at": "2026-01-22T10:00:00.000Z",
+      "updated_at": "2026-08-29T15:32:39.528Z"
+    },
+    {
+      "id": "po_2026_0102",
+      "po_number": "PO-2026-0102",
+      "purchase_date": "2026-02-18T14:30:00.000Z",
+      "date_formatted": "2026-02-18",
+      "supplier": "Cahaya Stationery & Office Supplies Sdn Bhd",
+      "status": "Completed",
+      "notes": "Q1 records archiving cabinets and filing binders",
+      "reference_no": "ADM-Q1-2026",
+      "total_amount": 3120,
+      "items_count": 2,
+      "total_ordered_units": 11,
+      "total_received_units": 11,
+      "total_pending_units": 0,
+      "items": [
+        {
+          "id": "item_q1_03",
+          "po_id": "po_2026_0102",
+          "po_number": "PO-2026-0102",
+          "item_name": "Lion Steel 4-Drawer Vertical Filing Cabinet (Lockable)",
+          "supplier": "Cahaya Stationery & Office Supplies Sdn Bhd",
+          "quantity": 3,
+          "quantity_received": 3,
+          "pending_balance": 0,
+          "unit_price": 720,
+          "total_price": 2160,
+          "category": "Office Supplies",
+          "notes": "Grey enamel finish with master keys",
+          "purchase_date": "2026-02-18T14:30:00.000Z"
+        },
+        {
+          "id": "item_q1_04",
+          "po_id": "po_2026_0102",
+          "po_number": "PO-2026-0102",
+          "item_name": "Bantex Lever Arch File 70mm A4 (Carton of 20 Files)",
+          "supplier": "Cahaya Stationery & Office Supplies Sdn Bhd",
+          "quantity": 8,
+          "quantity_received": 8,
+          "pending_balance": 0,
+          "unit_price": 120,
+          "total_price": 960,
+          "category": "Office Supplies",
+          "notes": "Assorted spine colors for audit filing",
+          "purchase_date": "2026-02-18T14:30:00.000Z"
+        }
+      ],
+      "receipt_logs": [
+        {
+          "id": "rec_q1_02",
+          "receipt_date": "2026-02-22T14:00:00.000Z",
+          "receiver_name": "Siti Rahmah (Inventory Receiving Officer)",
+          "delivery_order_ref": "DO-CS-38821",
+          "notes": "All cabinets and cartons received intact.",
+          "items": [
+            {
+              "item_id": "item_q1_03",
+              "item_name": "Lion Steel 4-Drawer Vertical Filing Cabinet (Lockable)",
+              "quantity_received": 3
+            },
+            {
+              "item_id": "item_q1_04",
+              "item_name": "Bantex Lever Arch File 70mm A4 (Carton of 20 Files)",
+              "quantity_received": 8
+            }
+          ]
+        }
+      ],
+      "last_receipt_date": "2026-02-22T14:00:00.000Z",
+      "created_at": "2026-02-18T14:30:00.000Z",
+      "updated_at": "2026-02-22T14:00:00.000Z"
+    },
+    {
+      "id": "po_2026_0201",
+      "po_number": "PO-2026-0201",
+      "purchase_date": "2026-04-16T11:00:00.000Z",
+      "date_formatted": "2026-04-16",
+      "supplier": "Mega Office Furniture Sdn Bhd",
+      "status": "Completed",
+      "notes": "Q2 Ergonomic workstations upgrade for product team",
+      "reference_no": "FAC-Q2-004",
+      "total_amount": 7200,
+      "items_count": 1,
+      "total_ordered_units": 6,
+      "total_received_units": 6,
+      "total_pending_units": 0,
+      "items": [
+        {
+          "id": "item_q2_01",
+          "po_id": "po_2026_0201",
+          "po_number": "PO-2026-0201",
+          "item_name": "Dual-Motor Electric Height Adjustable Standing Desk (150x75cm)",
+          "supplier": "Mega Office Furniture Sdn Bhd",
+          "quantity": 6,
+          "quantity_received": 6,
+          "pending_balance": 0,
+          "unit_price": 1200,
+          "total_price": 7200,
+          "category": "Facilities & Safety",
+          "notes": "Oak top finish with digital height memory handset",
+          "purchase_date": "2026-04-16T11:00:00.000Z"
+        }
+      ],
+      "receipt_logs": [
+        {
+          "id": "rec_q2_01",
+          "receipt_date": "2026-04-20T16:00:00.000Z",
+          "receiver_name": "Ahmad Fauzi (Stor & Logistik)",
+          "delivery_order_ref": "DO-MOF-6890",
+          "notes": "Desks assembled and function-tested.",
+          "items": [
+            {
+              "item_id": "item_q2_01",
+              "item_name": "Dual-Motor Electric Height Adjustable Standing Desk (150x75cm)",
+              "quantity_received": 6
+            }
+          ]
+        }
+      ],
+      "last_receipt_date": "2026-04-20T16:00:00.000Z",
+      "created_at": "2026-04-16T11:00:00.000Z",
+      "updated_at": "2026-04-20T16:00:00.000Z"
+    },
+    {
+      "id": "po_2026_0202",
+      "po_number": "PO-2026-0202",
+      "purchase_date": "2026-05-19T13:45:00.000Z",
+      "date_formatted": "2026-05-19",
+      "supplier": "Graha Tech Solutions Sdn Bhd",
+      "status": "Completed",
+      "notes": "Q2 Server room power protection and network expansion",
+      "reference_no": "IT-Q2-NET-09",
+      "total_amount": 6800,
+      "items_count": 2,
+      "total_ordered_units": 4,
+      "total_received_units": 4,
+      "total_pending_units": 0,
+      "items": [
+        {
+          "id": "item_q2_02",
+          "po_id": "po_2026_0202",
+          "po_number": "PO-2026-0202",
+          "item_name": "Cisco Business 250 Series Smart Switch 48-Port Gigabit PoE+",
+          "supplier": "Graha Tech Solutions Sdn Bhd",
+          "quantity": 2,
+          "quantity_received": 2,
+          "pending_balance": 0,
+          "unit_price": 2600,
+          "total_price": 5200,
+          "category": "Hardware & IT",
+          "notes": "Equipped with 370W PoE budget and 4x 10G SFP+ uplinks",
+          "purchase_date": "2026-05-19T13:45:00.000Z"
+        },
+        {
+          "id": "item_q2_03",
+          "po_id": "po_2026_0202",
+          "po_number": "PO-2026-0202",
+          "item_name": "Schneider Electric APC Easy UPS 1500VA Floor Tower (BVX1500LI-MS)",
+          "supplier": "Graha Tech Solutions Sdn Bhd",
+          "quantity": 2,
+          "quantity_received": 2,
+          "pending_balance": 0,
+          "unit_price": 800,
+          "total_price": 1600,
+          "category": "Hardware & IT",
+          "notes": "Battery backup units for core rack switches",
+          "purchase_date": "2026-05-19T13:45:00.000Z"
+        }
+      ],
+      "receipt_logs": [
+        {
+          "id": "rec_q2_02",
+          "receipt_date": "2026-05-23T10:30:00.000Z",
+          "receiver_name": "Marcus Vane (Procurement & Receiving)",
+          "delivery_order_ref": "DO-GTS-7104",
+          "notes": "Cisco switches and APC UPS delivered and signed.",
+          "items": [
+            {
+              "item_id": "item_q2_02",
+              "item_name": "Cisco Business 250 Series Smart Switch 48-Port Gigabit PoE+",
+              "quantity_received": 2
+            },
+            {
+              "item_id": "item_q2_03",
+              "item_name": "Schneider Electric APC Easy UPS 1500VA Floor Tower (BVX1500LI-MS)",
+              "quantity_received": 2
+            }
+          ]
+        }
+      ],
+      "last_receipt_date": "2026-05-23T10:30:00.000Z",
+      "created_at": "2026-05-19T13:45:00.000Z",
+      "updated_at": "2026-05-23T10:30:00.000Z"
+    },
+    {
+      "id": "po_2026_0203",
+      "po_number": "PO-2026-0203",
+      "purchase_date": "2026-06-22T15:30:00.000Z",
+      "date_formatted": "2026-06-22",
+      "supplier": "Mitra Jaya Packaging Solutions Sdn Bhd",
+      "status": "Completed",
+      "notes": "Q2 Warehouse dispatch shipping labels and pallet wrapping film",
+      "reference_no": "WH-Q2-PACK",
+      "total_amount": 2880,
+      "items_count": 2,
+      "total_ordered_units": 80,
+      "total_received_units": 80,
+      "total_pending_units": 0,
+      "items": [
+        {
+          "id": "item_q2_04",
+          "po_id": "po_2026_0203",
+          "po_number": "PO-2026-0203",
+          "item_name": "Zebra Direct Thermal Shipping Labels 4x6 (Roll of 500)",
+          "supplier": "Mitra Jaya Packaging Solutions Sdn Bhd",
+          "quantity": 40,
+          "quantity_received": 40,
+          "pending_balance": 0,
+          "unit_price": 32,
+          "total_price": 1280,
+          "category": "Packaging & Shipping",
+          "notes": "Compatible with Zebra ZD421 barcode printers",
+          "purchase_date": "2026-06-22T15:30:00.000Z"
+        },
+        {
+          "id": "item_q2_05",
+          "po_id": "po_2026_0203",
+          "po_number": "PO-2026-0203",
+          "item_name": "Industrial Stretch Film Hand Wrap Roll 500mm x 2.2kg 23mic",
+          "supplier": "Mitra Jaya Packaging Solutions Sdn Bhd",
+          "quantity": 40,
+          "quantity_received": 40,
+          "pending_balance": 0,
+          "unit_price": 40,
+          "total_price": 1600,
+          "category": "Packaging & Shipping",
+          "notes": "High puncture resistance cast film",
+          "purchase_date": "2026-06-22T15:30:00.000Z"
+        }
+      ],
+      "receipt_logs": [
+        {
+          "id": "rec_q2_03",
+          "receipt_date": "2026-06-25T11:00:00.000Z",
+          "receiver_name": "Siti Rahmah (Inventory Receiving Officer)",
+          "delivery_order_ref": "DO-MJ-9912",
+          "notes": "Full quantity received at loading dock.",
+          "items": [
+            {
+              "item_id": "item_q2_04",
+              "item_name": "Zebra Direct Thermal Shipping Labels 4x6 (Roll of 500)",
+              "quantity_received": 40
+            },
+            {
+              "item_id": "item_q2_05",
+              "item_name": "Industrial Stretch Film Hand Wrap Roll 500mm x 2.2kg 23mic",
+              "quantity_received": 40
+            }
+          ]
+        }
+      ],
+      "last_receipt_date": "2026-06-25T11:00:00.000Z",
+      "created_at": "2026-06-22T15:30:00.000Z",
+      "updated_at": "2026-06-25T11:00:00.000Z"
+    }
+  ],
+  "suppliers": [
+    "Graha Tech Solutions Sdn Bhd",
+    "Cahaya Stationery & Office Supplies Sdn Bhd",
+    "Mitra Jaya Packaging Solutions Sdn Bhd",
+    "Mega Office Furniture Sdn Bhd",
+    "Bintang Logistics Enterprise"
+  ],
+  "metadata": {
+    "last_updated": "2026-08-29T15:32:39.528Z",
+    "engine": "JSON File Database Engine (SQLite compatible schema)",
+    "version": "1.2.0",
+    "total_records": 10
+  }
+}

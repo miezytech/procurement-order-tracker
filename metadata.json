@@ -1,0 +1,6 @@
+{
+  "name": "Purchase Order Tracker",
+  "description": "Procurement and inventory receiving system to record purchase orders, track goods receipt (barang sampai), search monthly procurement history, and generate real-time quarterly stock reports with inventory audit verification in Malaysian Ringgit (MYR).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
